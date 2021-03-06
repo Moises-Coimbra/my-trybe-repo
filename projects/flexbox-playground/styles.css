@@ -8,5 +8,46 @@
 
 body {
   background-color: #222;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+main h1 {
+  font-size: 40px;
+  text-align: center;
+  margin: 40px;
+}
+
+main form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+main .demo {
+  background-color: #222;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -7,5 +7,38 @@
 
 body {
   background-color: #222;
-  
+  font-family: 'Roboto', sans-serif;
+  color: #fff;  
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: rgba(255,255,255, 0.05);
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 40px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .buttons {
+
+  }
+
+  .demo {
+    background-color: #222;
+
+  }
+
 }
